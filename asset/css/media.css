@@ -1,0 +1,150 @@
+/* Smart phone and tablets */
+
+@media (max-width:768px)
+{
+
+header
+{
+    text-align: center;
+}
+
+header .deliver-number
+{
+    float: none;
+    margin-top:15px
+}
+
+.navbar-nav .dropdown-menu {
+    position: static;
+    float: none;
+    background: none;
+    border: none;
+    text-align: center;
+}
+
+.event-carousel .owl-nav.disabled+.owl-dots 
+{
+    margin-bottom: 35px;
+}
+
+.reserve .bottle,
+.reserve .img-right,
+.reserve .burger
+
+{
+    display: none;
+}
+
+footer .contact-data
+{
+    float: left !important;
+}
+
+footer .bottom-footer
+{
+    text-align: center;
+}
+
+footer .bottom-footer .social-media
+{
+	float:none;
+    margin:15px auto 5px;
+    text-align: center;
+}
+
+.header-offer .head-line
+{
+	font-size:65px;
+	font-weight: bolder;
+}
+
+.header-offer h3
+{
+	font-size:30px;
+	font-weight:bold
+}
+	
+}
+
+/* Small Screen */ 
+
+@media (min-width:768px) and (max-width:991px)
+{
+
+    footer .contact-data
+{
+    float: left !important;
+}
+   		
+    .reserve .bottle,
+    .reserve .img-right,
+    .reserve .burger
+
+    {
+        display: none;
+    }
+
+    .header-offer .head-line
+    {
+        font-size:95px;
+        text-align: center;
+    }
+    
+    .header-offer h3
+    {
+        font-size:60px;
+        text-align: center;
+
+    }    
+    
+}
+
+/* Medium Screen */
+
+@media (min-width:992px) and (max-width:1199px)
+{
+
+
+    .header-offer .head-line
+    {
+        font-size:95px;
+    }
+    
+    .header-offer h3
+    {
+        font-size:60px;
+    }    
+
+}
+    
+
+
+/* Large Screen */
+
+@media (max-width:1000px)
+{
+    button.navbar-toggler
+    {
+        position: absolute;
+        right: 20px;
+        top: 15px;
+    } 
+
+}
+
+@media (max-width:580px)
+{
+
+    header .logo-nav img
+    {
+        width: 75%;
+    }
+}
+
+@media (max-width:500px)
+{
+	
+
+}
+
+
